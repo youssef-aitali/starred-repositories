@@ -1,0 +1,18 @@
+<ul>
+  <li *ngFor="let repo of repoList">
+    <img [src]="repo.avatar">
+    <div class="repo_details">
+      <h2>
+          {{ repo.name }}
+      </h2>
+      <p>
+          {{ repo.description }}
+      </p>
+      <div class="repo_details_statistics">
+          <span>Stars: {{ repo.stars }}</span>
+          <span>Issues: {{ repo.issues }}</span>
+          <p>Submitted {{ repo.time_interval }} days ago by {{ repo.username }}</p>
+      </div>
+    </div>
+  </li>
+</ul>
