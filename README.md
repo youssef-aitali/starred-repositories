@@ -7,5 +7,5 @@ This is a small webapp that lists the most starred Github repos that were create
 
 2. Run the following commands : 
 
-    i). Run npm install.
-    ii). Run ng serve -o.
+    i).  npm install.
+    ii). ng serve -o.
